@@ -1,7 +1,7 @@
 @import './font.scss';
 @import './variables';
+@import './libs/normalize';
 
 body {
     font-family: 'Roboto-Regular';
-    color: $black;
 }
