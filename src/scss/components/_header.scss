@@ -1,0 +1,16 @@
+header{
+    .header__inner {
+        .header__logo {
+            display: flex;
+            align-items: center;
+            img {
+                width: 70px;
+            }
+            .header__logo__text {
+                div {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
