@@ -1,10 +1,12 @@
 import React from 'react';
-import { Header } from './components/index'
+import { Header, Cards } from './components/index'
 
 function App() {
+
   return (
     <div className="Page">
       <Header />
+      <Cards />
     </div>
   );
 }
