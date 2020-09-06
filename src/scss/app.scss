@@ -1,5 +1,7 @@
 @import './font.scss';
+@import './variables';
 
 body {
-    font-family: 'Roboto-Regular'
+    font-family: 'Roboto-Regular';
+    color: $black;
 }
