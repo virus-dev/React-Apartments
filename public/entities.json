@@ -1,7 +1,16 @@
 {
-    "data" : [
-        {"name":"Квартира","price":"2000000","place":"Москва","img":"https://img3.goodfon.ru/original/1280x1024/f/a4/interer-stil-dizayn-dom-6229.jpg"},
-        {"name":"Квартира","price":"2000000","place":"Москва","img":"https://img3.goodfon.ru/original/1280x1024/f/a4/interer-stil-dizayn-dom-6229.jpg"},
-        {"name":"Квартира","price":"2000000","place":"Москва","img":"https://img3.goodfon.ru/original/1280x1024/f/a4/interer-stil-dizayn-dom-6229.jpg"}
+    "apartments" : [
+        {"id": 1, "name":"Квартира", "price":2000000, "place":"Москва", "like":false, "img":"https://classpic.ru/wp-content/uploads/2015/11/4553/Gostinaya-s-beloj-otdelkoj.jpg"},
+        {"id": 2, "name":"Квартира", "price":2000000, "place":"Москва", "like":false, "img":"https://oblako-design.com/wp-content/uploads/2015/05/look.com_.ua-34029.jpg"},
+        {"id": 3, "name":"Квартира", "price":2000000, "place":"Москва", "like":false, "img":"https://img3.goodfon.ru/original/1280x720/e/b3/interior-suite-media-room.jpg"},
+        {"id": 4, "name":"Квартира", "price":2000000, "place":"Москва", "like":false, "img":"https://thearchitecturedesigns.com/wp-content/uploads/2018/10/1-modern-german-interior-design.jpg"},
+        {"id": 5, "name":"Квартира", "price":2000000, "place":"Москва", "like":false, "img":"https://img.youtube.com/vi/xOk30lGqPGg/maxresdefault.jpg"},
+        {"id": 6, "name":"Квартира", "price":2000000, "place":"Москва", "like":false, "img":"https://img2.goodfon.com/original/1280x720/5/c9/interer-stil-dizayn-gorod-3602.jpg"},
+        {"id": 7, "name":"Квартира", "price":2000000, "place":"Москва", "like":false, "img":"https://www.tomswallpapers.com/pic/201503/1280x720/tomswallpapers.com-19382.jpg"},
+        {"id": 8, "name":"Квартира", "price":2000000, "place":"Москва", "like":false, "img":"https://img4.goodfon.ru/original/1280x720/9/b9/gostinaia-interer-real-parque-loft.jpg"},
+        {"id": 9, "name":"Квартира", "price":2000000, "place":"Москва", "like":false, "img":"https://i.ytimg.com/vi/pHuggNMeS04/maxresdefault.jpg"},
+        {"id": 10, "name":"Квартира", "price":2000000, "place":"Москва", "like":false, "img":"https://img3.goodfon.ru/original/1280x720/a/ef/interer-dizayn-stil-dom-4691.jpg"},
+        {"id": 11, "name":"Квартира", "price":2000000, "place":"Москва", "like":false, "img":"https://retail-realty.ru/images/----.jpg"},
+        {"id": 12, "name":"Квартира", "price":2000000, "place":"Москва", "like":false, "img":"https://i.ytimg.com/vi/bPIj3EUiMjQ/maxresdefault.jpg"}
     ]
 }
