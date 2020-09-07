@@ -1,6 +1,17 @@
 .cards {
     margin-top: 25px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 10px;
+    grid-template-columns: 267px 267px 267px 267px;
+    justify-content: space-between;
+    grid-gap: 10px;
+    @media (max-width: 1130px) {
+        grid-template-columns: 267px 267px 267px;
+    }
+    @media (max-width: 850px) {
+        justify-content: center;
+        grid-template-columns: 267px 267px;
+    }
+    @media (max-width: 570px) {
+        grid-template-columns: 267px;
+    }
 }
