@@ -1,6 +1,33 @@
 .card {
+    position: relative;
     border: 1px solid $gray;
     img {
         max-width: 100%;
+    }
+    .card__like {
+        cursor: pointer;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        svg {
+            transition: all .2s ease;
+            width: 25px;
+            fill: rgba(255, 0, 0, 0.3);
+        }
+        &:hover svg {
+            fill: rgba(255, 0, 0, 0.5);
+        }
+        &.active svg {
+            fill: rgba(255, 0, 0, 1);
+        }
+        &.active:hover svg {
+            fill: rgba(255, 0, 0, 1);
+        }
+    }
+    .card__inner {
+        margin: 5px 10px 10px;
+        .card__title {
+            font-family: 'Roboto-Bold';
+        }
     }
 }
